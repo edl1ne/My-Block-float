@@ -67,20 +67,20 @@ div.main-box {
 	display: block;
 }
 .first-box-float {
+	display: flex;
 	background: lightblue;
 	font-size: 25px;
 }
 .first-box-float > div {
-	float: left;
 	width: 400px;
 	height: 400px;
 }
 .second-box-float {
+	display: flex;
 	font-size: 25px;
 	background: darkgrey;
 }
 .second-box-float > div {
-	float: left;
 	width: 800px;
 }
 .second-box-float > div + div {
@@ -93,11 +93,11 @@ div.main-box {
 	height: 133.333px;
 }
 .third-box-float {
+	display: flex;
 	background: lightcoral;
     font-size: 25px;
 }
 .third-box-float > div {
-    float: left;
 	width: 400px;
 }
 .third-box-float > div + div {
@@ -110,10 +110,10 @@ div.main-box {
 	height: 200px;
 }
 .third-box-three-float { 
+	display: flex;
 	font-size: 25px;
 }
 .third-box-three-float > div {
-	float: left;
 	width: 400px;
 }
 .third-box-three-float > div {
